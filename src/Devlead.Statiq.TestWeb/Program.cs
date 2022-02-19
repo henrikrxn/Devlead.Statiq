@@ -12,7 +12,7 @@ static class Program
         await Bootstrapper
             .Factory
             .CreateDefault(args)
-            .AddThemeFromUri(new Uri("https://github.com/statiqdev/CleanBlog/archive/ceb5055f3d0f7a330708494ed21eb469cde62ce2.zip"))
+            .AddThemeFromUri(new Uri("https://github.com/statiqdev/CleanBlog/archive/71b37ce47fd5b47dbc993e7591ef8cda6c930e44.zip"))
             .AddWeb()
             .AddTabGroupShortCode()
             .AddIncludeCodeShortCode()
