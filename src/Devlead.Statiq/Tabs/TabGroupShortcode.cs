@@ -53,8 +53,7 @@ namespace Devlead.Statiq.Tabs
                             tab.Content,
                             writer,
                             prependLinkRoot,
-                            configuration,
-                            null
+                            configuration
                         );
                     }
 

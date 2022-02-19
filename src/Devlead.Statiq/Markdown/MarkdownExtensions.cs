@@ -97,8 +97,7 @@ namespace Devlead.Statiq.Markdown
                     : content,
                 writer,
                 prependLinkRoot,
-                configuration,
-                null
+                configuration
             );
         }
     }
