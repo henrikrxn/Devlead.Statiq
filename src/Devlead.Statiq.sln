@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.6.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devlead.Statiq", "Devlead.Statiq\Devlead.Statiq.csproj", "{14B141C9-5B19-4D5D-9051-4E70AAE8EB3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devlead.Statiq", "Devlead.Statiq\Devlead.Statiq.csproj", "{14B141C9-5B19-4D5D-9051-4E70AAE8EB3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devlead.Statiq.TestWeb", "Devlead.Statiq.TestWeb\Devlead.Statiq.TestWeb.csproj", "{772B0A5D-EAC5-440E-9BC0-35BD77F24C73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devlead.Statiq.TestWeb", "Devlead.Statiq.TestWeb\Devlead.Statiq.TestWeb.csproj", "{772B0A5D-EAC5-440E-9BC0-35BD77F24C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevLead.Statiq.TestThemes", "DevLead.Statiq.TestThemes\DevLead.Statiq.TestThemes.csproj", "{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{14B141C9-5B19-4D5D-9051-4E70AAE8EB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +43,23 @@ Global
 		{772B0A5D-EAC5-440E-9BC0-35BD77F24C73}.Release|x64.Build.0 = Release|Any CPU
 		{772B0A5D-EAC5-440E-9BC0-35BD77F24C73}.Release|x86.ActiveCfg = Release|Any CPU
 		{772B0A5D-EAC5-440E-9BC0-35BD77F24C73}.Release|x86.Build.0 = Release|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Debug|x64.Build.0 = Debug|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Debug|x86.Build.0 = Debug|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Release|x64.ActiveCfg = Release|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Release|x64.Build.0 = Release|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Release|x86.ActiveCfg = Release|Any CPU
+		{20763D62-E001-4C7B-B0B7-8E9CCA2E7243}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10B89FF2-F5CF-4E92-8C43-AE8183D7D2C0}
 	EndGlobalSection
 EndGlobal
